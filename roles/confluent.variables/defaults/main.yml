@@ -23,13 +23,14 @@ jolokia_auth_mode: none
 jolokia_user: admin
 
 ### Password for Jolokia Agent when using Basic Auth
-jolokia_password: password
+jolokia_password: nextgen4f$
 
 ### To copy from Ansible control host or download
 jmxexporter_url_remote: true
 
 ### Boolean to enable Prometheus Exporter Agent installation and configuration on all components
-jmxexporter_enabled: false
+#jmxexporter_enabled: false
+jmxexporter_enabled: true
 
 ### Full path to download the Prometheus Exporter Agent Jar
 jmxexporter_jar_path: /opt/prometheus/jmx_prometheus_javaagent.jar
@@ -48,7 +49,7 @@ kerberos_configure: true
 open_file_limit: 500000
 
 ### Boolean to install commercially licensed confluent-server instead of community version: confluent-kafka
-confluent_server_enabled: true
+confluent_server_enabled: false
 
 ### Boolean to enable health checks on all components
 health_checks_enabled: true
