@@ -53,7 +53,8 @@ kerberos_kafka_broker_primary: "{{ (hostvars[ groups['kafka_broker'][0] | defaul
 open_file_limit: 500000
 
 ### Boolean to install commercially licensed confluent-server instead of community version: confluent-kafka
-confluent_server_enabled: true
+#confluent_server_enabled: true
+confluent_server_enabled: false
 
 ### Boolean to enable health checks on all components
 health_checks_enabled: true

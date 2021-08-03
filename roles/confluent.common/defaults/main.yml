@@ -37,10 +37,10 @@ install_java: true
 redhat_java_package_name: java-1.8.0-openjdk
 
 ### Java Package to install on Debian hosts. Possible values openjdk-8-jdk or openjdk-11-jdk
-debian_java_package_name: openjdk-8-jdk
+debian_java_package_name: openjdk-11-jdk
 
 ### Java Package to install on Ubuntu hosts. Possible values openjdk-8-jdk or openjdk-11-jdk
-ubuntu_java_package_name: openjdk-8-jdk
+ubuntu_java_package_name: openjdk-11-jdk
 
 ### Deb Repository to use for Java Installation
 ubuntu_java_repository: ppa:openjdk-r/ppa
