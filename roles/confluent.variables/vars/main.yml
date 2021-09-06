@@ -31,7 +31,7 @@ zookeeper_properties:
       syncLimit: 2
       autopurge.snapRetainCount: 10
       autopurge.purgeInterval: 1
-      dataDir: /var/lib/zookeeper
+      dataDir: /zookeeper/data
       admin.enableServer: "false"
   ssl:
     enabled: "{{zookeeper_ssl_enabled}}"

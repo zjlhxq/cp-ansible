@@ -323,7 +323,7 @@ kafka_broker:
   properties: {}
   # Deprecated way of setting kafkas log.dirs property
   datadir:
-    - /var/lib/kafka/data
+    - /kafka/data
 
 ### Boolean to configure Schema Validation on Kafka
 kafka_broker_schema_validation_enabled: true
